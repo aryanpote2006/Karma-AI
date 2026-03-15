@@ -1,0 +1,396 @@
+{
+  "open_youtube": [
+    "open youtube",
+    "start youtube",
+    "launch youtube",
+    "play youtube",
+    "go to youtube",
+    "i want to watch youtube",
+    "open video site",
+    "start video player",
+    "youtube please"
+  ],
+  "open_google": [
+    "open google",
+    "start google",
+    "launch google",
+    "search google",
+    "go to google",
+    "google home",
+    "open google search"
+  ],
+  "open_facebook": [
+    "open facebook",
+    "start facebook",
+    "launch facebook",
+    "go to facebook",
+    "facebook please",
+    "open fb"
+  ],
+  "open_instagram": [
+    "open instagram",
+    "start instagram",
+    "launch instagram",
+    "go to instagram",
+    "instagram please",
+    "open ig"
+  ],
+  "open_twitter": [
+    "open twitter",
+    "start twitter",
+    "launch twitter",
+    "go to twitter",
+    "twitter please",
+    "open x"
+  ],
+  "open_linkedin": [
+    "open linkedin",
+    "start linkedin",
+    "launch linkedin",
+    "go to linkedin",
+    "linkedin please"
+  ],
+  "open_github": [
+    "open github",
+    "start github",
+    "launch github",
+    "go to github",
+    "github please",
+    "open git"
+  ],
+  "open_gmail": [
+    "open gmail",
+    "start gmail",
+    "launch gmail",
+    "open mail",
+    "open email",
+    "check gmail"
+  ],
+  "open_whatsapp": [
+    "open whatsapp",
+    "start whatsapp",
+    "launch whatsapp",
+    "open wa",
+    "whatsapp please"
+  ],
+  "open_netflix": [
+    "open netflix",
+    "start netflix",
+    "launch netflix",
+    "netflix please",
+    "watch netflix"
+  ],
+  "open_amazon": [
+    "open amazon",
+    "start amazon",
+    "launch amazon",
+    "amazon please",
+    "shop on amazon"
+  ],
+  "open_chrome": [
+    "open chrome",
+    "start chrome",
+    "launch chrome",
+    "chrome please",
+    "open browser"
+  ],
+  "open_vscode": [
+    "open vscode",
+    "open vs code",
+    "start vscode",
+    "launch vscode",
+    "open visual studio",
+    "open visual studio code",
+    "vscode please"
+  ],
+  "open_notepad": [
+    "open notepad",
+    "start notepad",
+    "launch notepad",
+    "notepad please",
+    "open text editor"
+  ],
+  "open_calculator": [
+    "open calculator",
+    "start calculator",
+    "launch calculator",
+    "calculator please",
+    "do calculations"
+  ],
+  "open_word": [
+    "open word",
+    "open ms word",
+    "open microsoft word",
+    "start word",
+    "launch word"
+  ],
+  "open_excel": [
+    "open excel",
+    "open ms excel",
+    "open microsoft excel",
+    "start excel",
+    "launch excel"
+  ],
+  "open_powerpoint": [
+    "open powerpoint",
+    "open ms powerpoint",
+    "open microsoft powerpoint",
+    "start powerpoint",
+    "launch powerpoint"
+  ],
+  "play_music": [
+    "play music",
+    "start music",
+    "play some songs",
+    "play songs",
+    "open music",
+    "play a song"
+  ],
+  "pause_music": [
+    "pause music",
+    "pause",
+    "stop playing",
+    "hold music"
+  ],
+  "stop_music": [
+    "stop music",
+    "stop song",
+    "stop playing",
+    "halt music"
+  ],
+  "next_song": [
+    "next song",
+    "next track",
+    "skip song",
+    "play next"
+  ],
+  "previous_song": [
+    "previous song",
+    "previous track",
+    "go back",
+    "play previous"
+  ],
+  "volume_up": [
+    "volume up",
+    "increase volume",
+    "louder",
+    "turn up volume",
+    "volume higher"
+  ],
+  "volume_down": [
+    "volume down",
+    "decrease volume",
+    "quieter",
+    "turn down volume",
+    "volume lower"
+  ],
+  "mute": [
+    "mute",
+    "mute volume",
+    "silence",
+    "silent mode",
+    "mute sound"
+  ],
+  "get_time": [
+    "what is the time",
+    "what time is it",
+    "tell me the time",
+    "current time",
+    "time please"
+  ],
+  "get_date": [
+    "what is the date",
+    "what date is it",
+    "tell me the date",
+    "current date",
+    "date please"
+  ],
+  "get_weather": [
+    "what is the weather",
+    "how is the weather",
+    "weather report",
+    "tell me weather",
+    "is it sunny",
+    "is it raining"
+  ],
+  "get_aqi": [
+    "air quality",
+    "aqi",
+    "pollution level",
+    "how is the air",
+    "air pollution"
+  ],
+  "shutdown": [
+    "shutdown",
+    "shutdown pc",
+    "shutdown computer",
+    "turn off computer",
+    "power off",
+    "switch off computer"
+  ],
+  "restart": [
+    "restart",
+    "restart pc",
+    "restart computer",
+    "reboot",
+    "reboot pc",
+    "reboot computer"
+  ],
+  "sleep": [
+    "sleep",
+    "sleep pc",
+    "sleep computer",
+    "put to sleep",
+    "hibernate"
+  ],
+  "lock": [
+    "lock",
+    "lock pc",
+    "lock computer",
+    "lock screen",
+    "lock the pc"
+  ],
+  "add_task": [
+    "add task",
+    "add to todo",
+    "add to list",
+    "create task",
+    "new task",
+    "remember task"
+  ],
+  "show_tasks": [
+    "show tasks",
+    "show todo",
+    "show list",
+    "what are my tasks",
+    "view tasks",
+    "my tasks"
+  ],
+  "remember": [
+    "remember that",
+    "remember",
+    "keep in mind",
+    "don't forget"
+  ],
+  "what_remember": [
+    "what do you remember",
+    "what do you know about me",
+    "tell me what you remember",
+    "my memories"
+  ],
+  "play_youtube": [
+    "play on youtube",
+    "play video",
+    "watch video",
+    "search and play",
+    "find and play"
+  ],
+  "search_youtube": [
+    "search youtube",
+    "search on youtube",
+    "find on youtube",
+    "youtube search"
+  ],
+  "voice_typing": [
+    "voice typing",
+    "start typing",
+    "type for me",
+    "voice type"
+  ],
+  "open_maps": [
+    "open maps",
+    "open google maps",
+    "show maps",
+    "map please"
+  ],
+  "open_calendar": [
+    "open calendar",
+    "open google calendar",
+    "show calendar"
+  ],
+  "open_drive": [
+    "open drive",
+    "open google drive",
+    "show drive"
+  ],
+  "open_docs": [
+    "open docs",
+    "open google docs",
+    "show docs"
+  ],
+  "open_meet": [
+    "open meet",
+    "open google meet",
+    "start meeting"
+  ],
+  "open_zoom": [
+    "open zoom",
+    "start zoom",
+    "launch zoom"
+  ],
+  "open_spotify": [
+    "open spotify",
+    "start spotify",
+    "launch spotify"
+  ],
+  "open_command_prompt": [
+    "open command prompt",
+    "open cmd",
+    "open terminal"
+  ],
+  "open_file_explorer": [
+    "open file explorer",
+    "open explorer",
+    "open files"
+  ],
+  "open_task_manager": [
+    "open task manager",
+    "open task manager"
+  ],
+  "open_control_panel": [
+    "open control panel",
+    "open settings"
+  ],
+  "open_chatgpt": [
+    "open chatgpt",
+    "open chat gpt",
+    "open gpt",
+    "start chatgpt"
+  ],
+  "open_gemini": [
+    "open gemini",
+    "open gemini ai",
+    "start gemini"
+  ],
+  "play_bollywood": [
+    "play bollywood",
+    "bollywood songs",
+    "hindi songs",
+    "play hindi music"
+  ],
+  "play_popular": [
+    "play popular",
+    "popular music",
+    "top songs",
+    "hit songs"
+  ],
+  "play_relaxing": [
+    "play relaxing",
+    "chill music",
+    "lofi",
+    "relaxing music",
+    "study music"
+  ],
+  "play_classical": [
+    "play classical",
+    "classical music",
+    "classical songs"
+  ],
+  "play_workout": [
+    "play workout",
+    "gym music",
+    "pump up",
+    "workout songs"
+  ]
+}
+

@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aqi-good: #00e400;
+  --aqi-moderate: #ffff00;
+  --aqi-unhealthy-sensitive: #ff7e00;
+  --aqi-unhealthy: #ff0000;
+  --aqi-very-unhealthy: #8f3f97;
+  --aqi-hazardous: #7e0023;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* AQI Color classes */
+.aqi-good { background-color: var(--aqi-good); }
+.aqi-moderate { background-color: var(--aqi-moderate); }
+.aqi-unhealthy-sensitive { background-color: var(--aqi-unhealthy-sensitive); }
+.aqi-unhealthy { background-color: var(--aqi-unhealthy); }
+.aqi-very-unhealthy { background-color: var(--aqi-very-unhealthy); }
+.aqi-hazardous { background-color: var(--aqi-hazardous); }
+
+/* Text AQI colors */
+.text-aqi-good { color: var(--aqi-good); }
+.text-aqi-moderate { color: var(--aqi-moderate); }
+.text-aqi-unhealthy-sensitive { color: var(--aqi-unhealthy-sensitive); }
+.text-aqi-unhealthy { color: var(--aqi-unhealthy); }
+.text-aqi-very-unhealthy { color: var(--aqi-very-unhealthy); }
+.text-aqi-hazardous { color: var(--aqi-hazardous); }
+
+/* Pulse animation for voice indicator */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.voice-pulse {
+  position: relative;
+}
+
+.voice-pulse::before {
+  content: '';
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.3;
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Input focus styles */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+/* Loading spinner */
+.spinner {
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #667eea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Audio wave visualization */
+.audio-wave {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 40px;
+}
+
+.audio-wave span {
+  width: 4px;
+  background: currentColor;
+  border-radius: 2px;
+  animation: audio-wave 1s ease-in-out infinite;
+}
+
+.audio-wave span:nth-child(1) { animation-delay: 0s; }
+.audio-wave span:nth-child(2) { animation-delay: 0.1s; }
+.audio-wave span:nth-child(3) { animation-delay: 0.2s; }
+.audio-wave span:nth-child(4) { animation-delay: 0.3s; }
+.audio-wave span:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes audio-wave {
+  0%, 100% { height: 10px; }
+  50% { height: 40px; }
+}
